@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Ignite Pomodoro
 
-Currently, two official plugins are available:
+It's a medium application created to control cycles of pomodoro, this project was create to improve my knowledge of React, Styled-Components and CSS. (still under development).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to run
 
-## Expanding the ESLint configuration
+1 Clone the repository into your machine.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2 You will need NodeJS/ NPM to run, you can download [here](https://nodejs.org/en).
 
-- Configure the top-level `parserOptions` property like this:
+3 Execute `npm run dev`.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+4 Open into you Browser the address: `http://localhost:5173`.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Features
+
+- [x] Create a new cycle with name and duration.
+- [x] Consult the history of my previous cycles.
+- [ ] Interupt timer of current cycle.
+
+# Preview
+
+## Home
+
+![home](src/assets/home.png)
+
+## History
+
+![history](src/assets/history.png)
