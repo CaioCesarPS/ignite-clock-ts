@@ -10,7 +10,7 @@ It's a medium application created to control cycles of pomodoro, this project wa
 
 2 You will need NodeJS/ NPM to run, you can download [here](https://nodejs.org/en).
 
-3 Execute `npm run dev`.
+3 Execute `npm i && npm run dev`.
 
 4 Open into you Browser the address: `http://localhost:5173`.
 
